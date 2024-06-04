@@ -49,6 +49,12 @@
 				<suiteXmlFiles>${suiteXmlFile}</suiteXmlFiles>
 			</configuration>
 		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+  				<artifactId>maven-compiler-plugin</artifactId>
+  				<version>3.13.0</version>
+ 				 <type>maven-plugin</type>
+		</plugin>
 </plugins>		
 </build>
 </project>
