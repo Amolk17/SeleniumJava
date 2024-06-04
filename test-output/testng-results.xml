@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-14T10:59:53 IST" name="Suite" finished-at="2024-05-14T11:00:16 IST" duration-ms="22980">
+    <groups>
+    </groups>
+    <test started-at="2024-05-14T10:59:53 IST" name="Test" finished-at="2024-05-14T11:00:16 IST" duration-ms="22980">
+      <class name="com.amol.automation.testcase.FlighBooking">
+        <test-method is-config="true" signature="beforeSuit()[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T10:59:52 IST" name="beforeSuit" finished-at="2024-05-14T10:59:53 IST" duration-ms="543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuit -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String)[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T10:59:53 IST" name="beforeTest" finished-at="2024-05-14T11:00:15 IST" duration-ms="21872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T11:00:15 IST" name="beforeMethod" finished-at="2024-05-14T11:00:15 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.amol.automation.testcase.FlighBooking.flightBook()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="flightBook()[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T11:00:15 IST" name="flightBook" finished-at="2024-05-14T11:00:15 IST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBook -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T11:00:15 IST" name="afterMethod" finished-at="2024-05-14T11:00:15 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=flightBook status=SUCCESS method=FlighBooking.flightBook()[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.amol.automation.testcase.FlighBooking@d5b810e]" started-at="2024-05-14T11:00:15 IST" name="afterTest" finished-at="2024-05-14T11:00:16 IST" duration-ms="470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.amol.automation.testcase.FlighBooking -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
