@@ -7,7 +7,7 @@ import com.amol.automation.pageobject.FlightBookingPage;
 
 public class FlighBooking extends TestBase{
 
-	@Test
+	@Test(description="By the way tv fslfj")
 	public void flightBook() {
 		FlightBookingPage obj = new FlightBookingPage(driver);
 		obj.flightBooking();
